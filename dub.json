@@ -1,16 +1,12 @@
 {
-    "name": "derelict-enet",
-    "description": "A dynamic binding to the ENet library.",
-    "homepage": "https://github.com/DerelictOrg/DerelictENet",
+    "name": "enet-d",
+    "description": "A static binding to the ENet library.",
+    "homepage": "https://github.com/schveiguy/enet-d",
     "license": "Boost",
     "authors": [
         "Guillaume Piolat (ponce)"
     ],
 
-    "targetName": "DerelictENet",
-    "targetPath": "lib",
-
-    "dependencies": {
-        "derelict-util": "~>3.0.0-beta.1"
-    }
+    "targetName": "enet-d",
+    "targetPath": "lib"
 }

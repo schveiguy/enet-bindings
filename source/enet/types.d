@@ -29,9 +29,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-module derelict.enet.types;
-
-import derelict.util.system;;
+module enet.types;
 
 version(BigEndian) 
 {
@@ -67,7 +65,7 @@ alias ENET_HOST_TO_NET_32 ENET_NET_TO_HOST_32;
 
 // win32.h
 
-static if(Derelict_OS_Windows)
+version(Windows)
 {
      // some things from winsock2.h too
 
